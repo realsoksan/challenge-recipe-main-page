@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f5f2;
+    margin: 0;
+    padding: 0;
+    color: #544e3f;
+}
+
+li::marker {
+    color: #884a3b;
+    font-weight: bold;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.recipe {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe h2 {
+    color: #884a3b;
+}
+
+.recipe img {
+    color: #544e3f;
+}
+
+.time,
+.ingredients,
+.instructions,
+.nutrition {
+    margin-bottom: 30px;
+}
+
+.time {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff7fc;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+.instructions ol {
+    list-style-type: decimal;
+}
+
+.instructions li {
+    margin-bottom: 10px;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table td {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+table td:first-child {
+    padding-left: 32px;
+    width: 60%;
+}
+
+table td:last-child {
+    color: #8a685d;
+    font-weight: bold;
+    width: 60%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
