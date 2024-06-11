@@ -13,21 +13,27 @@ li::marker {
 
 .container {
     margin: 0 auto;
-}
-
-.recipe {
     background-color: #ffffff;
-    padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.recipe h2 {
-    color: #884a3b;
+.photo {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
 }
 
-.recipe img {
-    color: #544e3f;
+.recipe {
+    padding: 30px;
+}
+
+.recipe h1 {
+    margin-top: 0px;
+}
+
+.recipe h2 {
+    color: #884a3b;
 }
 
 .time,
@@ -43,6 +49,16 @@ li::marker {
     background-color: #fff7fc;
     border-radius: 5px;
     padding: 10px 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.time ul {
+    list-style-type: disc;
+}
+
+.time li {
+    font-size: 16px;
+    margin-bottom: 8px;
 }
 
 .instructions ol {
@@ -81,11 +97,11 @@ table td:last-child {
     width: 60%;
 }
 
-.attribution {
+.contribution {
     font-size: 11px;
     text-align: center;
 }
 
-.attribution a {
+.contribution a {
     color: hsl(228, 45%, 44%);
 }
